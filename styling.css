@@ -25,8 +25,11 @@ body{
     margin-top: 20px;
     outline: none;
     padding: 0 50px;
-    box-shadow: 0px 1px 5px rgba(128, 128, 128, 0.527);
 }
+
+ #searchbar:hover{
+    box-shadow: 0px 1px 5px rgba(128, 128, 128, 0.527);
+ }
 
 #icon{
     width: 32px;
@@ -75,17 +78,53 @@ nav ul{
     align-items: center;
 }
 
-nav ul li{
+li{
     list-style: none;
     padding : 0 10px;
 }
 
-.nav-links{
+.links{
     text-decoration: none;
     color: #000;
 }
 
-.nav-links:hover{
+.links:hover{
     text-decoration: underline;
 }
+
+footer{
+    color:rgba(128, 128, 128, 0.719) !important;
+    background-color:bisque;
+    position: relative;
+    bottom: 0;
+}
+
+#footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: -13px;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: -8px;
+    padding: 8px 0;
+}
+
+footer ul li{
+    color:rgba(128, 128, 128, 0.527) !important;
+}
+
+hr{
+    background-color: rgb(223, 175, 117);
+    border: none;
+    height: 1px;
+}
+
+
+
 
